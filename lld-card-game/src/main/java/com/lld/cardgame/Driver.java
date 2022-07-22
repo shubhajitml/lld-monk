@@ -1,7 +1,5 @@
 package com.lld.cardgame;
 
-import com.lld.cardgame.entities.Card;
-
 public class Driver {
     public static void main(String[] args){
         Game game = new Game();
