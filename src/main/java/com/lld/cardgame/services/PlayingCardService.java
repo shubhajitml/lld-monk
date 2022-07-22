@@ -40,7 +40,7 @@ public class PlayingCardService extends Card {
 
     @Override
     public int getValue() {
-        return value;
+        return this.value;
     }
 }
 

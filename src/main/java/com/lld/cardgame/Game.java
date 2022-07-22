@@ -3,6 +3,7 @@ package com.lld.cardgame;
 import java.util.ArrayList;
 
 import com.lld.cardgame.entities.Card;
+import com.lld.cardgame.services.AddJokerService;
 import com.lld.cardgame.services.PlayingCardService;
 
 public class Game {
@@ -24,4 +25,7 @@ public class Game {
         return cards.get(cardA).compareTo(cards.get(cardB)) > 0;
     }
 
+    public void addJoker(String color){
+        cards.add(new AddJokerService(color));
+    }
 }
